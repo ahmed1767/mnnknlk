@@ -3,13 +3,13 @@ package Drivers;
 public class HighResFactory implements ResFactory{
 
 	@Override
-	public Display GetDisplayDriver() {
+	public HighResDisplay GetDisplayDriver() {
 		// TODO Auto-generated method stub
 		return new HighResDisplay();
 	}
 
 	@Override
-	public Print GetPrintDriver() {
+	public HighResPrint GetPrintDriver() {
 		// TODO Auto-generated method stub
 		return new HighResPrint();
 	}
